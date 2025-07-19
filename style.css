@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: url('BACKGROUND.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 220px;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.description {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: rgba(24, 48, 48, 0.7); /* semi transparan hijau gelap */
+  color: white;
+  font-weight: 600;
+  width: 260px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(24, 48, 48, 0.9);
+  transform: scale(1.05);
+}
+
+.socials {
+  margin-top: 40px;
+}
+
+.socials p {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 12px;
+  background: rgba(24, 48, 48, 0.7); /* semi transparan sesuai warna gambar 2 */
+  transition: background 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(24, 48, 48, 0.9);
+}
